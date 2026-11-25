@@ -1,3 +1,4 @@
+```markdown
 # Week 3: CTEs, Aggregations, Window Functions, & Deduplication
 
 ## Introduction
@@ -31,6 +32,7 @@ CREATE TABLE IF NOT EXISTS orders (
     amount DECIMAL(10, 2) NOT NULL
 );
 
+```
 
 * `CREATE TABLE IF NOT EXISTS` and `INSERT OR IGNORE INTO` make the setup script idempotent—if you close your terminal and re-run the script later, DuckDB will not throw duplicate-table or primary-key errors.
 
@@ -175,3 +177,6 @@ ORDER BY
 ```
 
 
+3. Run the statements in `week3_lab.sql` and verify each query's output.
+
+```
