@@ -1,4 +1,3 @@
-```markdown
 # Week 3: CTEs, Aggregations, Window Functions, & Deduplication
 
 ## Introduction
